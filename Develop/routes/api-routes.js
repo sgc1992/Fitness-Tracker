@@ -37,5 +37,16 @@ router.post("/api/workouts", ({ body }, res) => {
 		});
 });
 
+// PUT/Update workout
+router.put("/api/workouts/:id", ({ body, params }, res) => {
+	db.findByIdAndUpdate(params.id, { $push: { exercises: body } })
+		.then((dbData) => {
+			res.json(dbData);
+		})
+		.catch((err) => {
+			res.json(err);
+		});
+});
+
 // Export API routes
 module.exports = router;
