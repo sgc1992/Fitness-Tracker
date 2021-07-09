@@ -41,5 +41,7 @@ The user should be able to:
 
 ## Deployed Website
 
+https://ur-fitness-tracker.herokuapp.com/?id=60e8cb7a43b31d0015962041
+
 ## Screenshot
 
