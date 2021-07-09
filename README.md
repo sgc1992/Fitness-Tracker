@@ -44,4 +44,4 @@ The user should be able to:
 https://ur-fitness-tracker.herokuapp.com/?id=60e8cb7a43b31d0015962041
 
 
-## ![](./images/screenshot.PNG "Description goes here")
+## Screenshot![](./images/screenshot.PNG "Description goes here")
